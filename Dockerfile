@@ -24,4 +24,4 @@ WORKDIR /app
 # UDP port 3400
 EXPOSE 3400/udp
 
-CMD ["/app/udp-hole"]
+CMD ["/udp-hole"]
