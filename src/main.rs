@@ -38,7 +38,7 @@ fn main() -> std::io::Result<()> {
                 player_set.clear();
             }
         } else {
-            println!("Unknown message from {}:{}", src_addr, msg);
+            println!("Unknown message from {}: {}", src_addr, msg);
         }
     }
 }
